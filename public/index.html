@@ -1,8 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
+  <base href="/">
+  <link rel="stylesheet" type="" href="/bootstrap/dist/css/bootstrap.min.css">
 </head>
-  
+
 <body ng-app="scotcha">
   <nav class="navbar navbar-inverse" role="navigation">
     <div class="navbar-header">
@@ -16,7 +19,11 @@
   <div class="container">
     <div ui-view></div>
   </div>
+  <script src="angular/angular.min.js"></script>
   <script src="app.js"></script>
+  <script src="@uirouter/core/_bundles/ui-router-core.js"></script>
+  <script src="@uirouter/angularjs/release/ui-router-angularjs.js"></script>
+  <script src="angular-ui-router/release/angular-ui-router.js"></script>
 </body>
-  
+
 </html>

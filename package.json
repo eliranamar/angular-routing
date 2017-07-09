@@ -1,0 +1,27 @@
+{
+  "name": "angular-routing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliranamar/angular-routing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliranamar/angular-routing/issues"
+  },
+  "homepage": "https://github.com/eliranamar/angular-routing#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.5",
+    "angular": "^1.6.5",
+    "angular-ui-router": "^1.0.3",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3"
+  }
+}
